@@ -1,0 +1,131 @@
+@media screen and (max-width:800px) {
+    .navar__wrapper{
+        max-width: 768px;
+    }
+}
+@media screen and (max-width:480px) {
+    .navar__wrapper{
+            max-width: 375px;
+    }
+    .burger{
+        margin-right: 16px;
+    }
+}
+
+@media screen and (max-width:480px){
+    .overlay .menu{
+        width: 100%;
+    }
+    .hide-mobile{
+        display: none;
+    }
+}
+
+@media screen and (max-width:800px){
+    .section-advantages .section__wrapper{
+    flex-direction: column;
+    height: 610px;
+    }
+}
+    
+
+@media screen and (max-width:800px){
+    .section--subscribe .section__wrapper{
+        flex-direction: column;
+        margin-top: 54px;
+        margin-bottom: 146px;
+    }
+    .section--subscribe{
+        height: 550px;
+    }
+
+}
+/*intro*/
+@media screen and (max-width:800px) and (min-width:480.01px){
+    .copyright{
+        margin-left: 32px;
+    }
+    .social-icons{
+        margin-right: 40px;
+    }
+}
+@media screen and (max-width:480px){
+    .footer{
+        height: 143px;
+    }
+    .footer__wrapper{
+        flex-direction: column-reverse;
+    }
+    .social-icons{
+        margin-top: 43px;
+    }
+    .copyright{
+        margin-top: 48px;
+    }
+}
+
+@media screen and (max-width:800px) and (min-width:480.01px){
+    .promo__heading{
+        font-family: Lato;
+        font-weight: bolder;
+        font-weight: 900;
+        font-size: 44px;
+        line-height: 53px;
+        color: #222222;
+    }
+    .promo__info {
+        font-family: Lato;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 28px;
+        line-height: 30px;
+        color: #222222;
+        margin: 0;
+    }
+}
+
+
+@media screen and (max-width:615px){
+    .intro{
+        height: 363px;
+    }
+    .section__intro .section__wrapper{
+        
+    }
+    .promo__text{
+        margin: 148px auto;
+    }
+    .promo__img-div{
+        display: none;
+    }
+    .promo-content{
+        margin-left: 56px;
+        margin-top: 145px;
+    }
+    .promo__heading{
+        font-family: Lato;
+        font-weight: 900;
+        font-size: 38px;
+        line-height: 46px;
+        color: #222222;
+}
+    .promo__info {
+        font-family: Lato;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 28px;
+        line-height: 30px;
+        color: #222222;
+        margin: 0;
+    }
+    .section__wrapper--deals{
+        margin-bottom: 64px;
+    }
+    .sale__header{
+        margin-bottom: 64px;
+    }
+}
+
+
+/*----catalog-----*/
+ 

@@ -1,0 +1,33 @@
+@mixin flex-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.section__wrapper{
+    @include flex-center;
+    flex-direction: column;
+    gap: 50px;
+}
+.deals__row{
+    @include flex-center;
+    gap: 30px;
+    .deals__card{
+        height: 260px;
+        @include flex-center;
+        flex-grow: 1; /*растягивает и центрирует то что находится внутри*/
+        background-image: url(img/1-for\ women.png);
+        .subtitle{
+
+        }
+        .title{
+            font-size: 24px;
+            line-height: 1.2;
+            font-weight: 700;
+            color: #f16d7f;
+            text-transform: uppercase;
+        }
+    }
+    &--short{
+        height: 180px;
+    }
+}
